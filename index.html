@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Acoustic Music</title>
+</head>
+    <body>
+        <h2>Best Acoustic Music You Can Find</h2>
+        <p>Here you can find the best acoustic music you can find on the internet. We have a collection of the best acoustic music that you can listen to and enjoy. Our collection includes songs from various genres such as pop, rock, country, and more. So whether you are looking for some relaxing music to listen to or some upbeat tunes to get you moving, we have got you covered. So sit back, relax, and enjoy the best acoustic music you can find.</p>
+    <!-- Ordered list in Roman Numerals -->
+        <ol type="I">
+            <li>Pop</li>
+            <li>Rock</li>
+            <li>Country</li>
+            <li>Blues</li>
+            <li>Jazz</li>
+        </ol>
+        <!-- Musical instrument image from Pexels -->
+        <img src="https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg" alt="Musical Instrument" width="500" height="300">
+    <!-- Example of the music with links -->
+    <h3>Sample Music</h3>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=2Vv-BfVoq4g" target="_blank">Ed Sheeran - Perfect</a></li>
+        <li><a href="https://www.youtube.com/watch?v=3JWTaaS7LdU" target="_blank">Celine Dion - My Heart Will Go On</a></li>
+        <li><a href="https://www.youtube.com/watch?v=1vrEljMfXYo" target="_blank">Dolly Parton - Jolene</a></li>
+        <li><a href="https://www.youtube.com/watch?v=huTUOek4LgU" target="_blank">Andrea Bocelli - Con Te Partirò</a></li>
+    </ul>
+        <!-- Table with contacts --> 
+        <h3>Contact Information</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                    </tr>
+            </thead>
+           <tbody>
+                <tr>
+                    <td>Andrea Bocceli</td>
+                    <td>223 Main St, Rome, Italy</td>
+                    <td>(021) 456-3370</td>
+                    <td>andrebocceli@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Celine Dione</td>
+                    <td>456 New St, Paris, France</td>
+                    <td>(543) 654-4430</td>
+                    <td>celinedione@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Dolly Parton</td>
+                    <td>432 Rein St, Texas, USA</td>
+                    <td>(987) 666-3120</td>
+                    <td>dollyparton@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Ed Sheeran</td>
+                    <td>121 Wall St, New York, USA</td>
+                    <td>(876) 111-0123</td>
+                    <td>edsheeran@gmail.com</td>
+                </tr>
+           </tbody>
+        </table>
+
+           <!-- Registration Form -->
+           <h3>Registration Form</h3>
+           <form action="/submit_registration" method="post">
+               <!--Name Field-->
+               <label for="name">Full Name:</label>
+               <input type="text" id="name" name="name" required><br><br>
+               
+               <!--Email Field-->
+               <label for="email">Email:</label>
+               <input type="email" id="email" name="email" required><br><br>
+               
+               <!--Password Field-->
+               <label for="password">Password:</label>
+               <input type="password" id="password" name="password" required><br><br>
+               
+               <!--Date of Birth Field-->
+               <label for="dob">Date of Birth:</label>
+               <input type="date" id="dob" name="dob" required><br><br>
+               
+               <!--dropdown option for country-->
+               <label for="country">Country:</label><br>
+               <select id="country" name="country" required>
+                   <option value="" disabled selected>Select your country</option>
+                   <option value="Italy">Italy</option>
+                   <option value="United States">United States</option>
+                   <option value="France">France</option>
+                   <option value="Canada">Canada</option>
+                </select><br><br>
+
+                <!--Radio Buttons-->
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+
+                <!--Checkboxes-->
+                <label>Interests:</label><br>
+                <input type="checkbox" id="sports" name="interests" value="sports">
+                <label for="sports">Sports</label><br>
+                <input type="checkbox" id="tech" name="interests" value="tech">
+                <label for="tech">Technology</label><br>
+                <input type="checkbox" id="music" name="interests" value="music">
+                <label for="music">Music</label><br><br>
+
+                <!--Submit Button-->
+               <button type="submit">Register</button>
+           </form>
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 Best Acoustic Music. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
